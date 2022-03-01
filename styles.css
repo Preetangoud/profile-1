@@ -1,0 +1,158 @@
+* {
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+html {
+scroll-behavior: smooth;}
+.header {
+    width: 100%;
+    height:7vh;
+    background-color:#1a2b2c;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color:white;
+    letter-spacing: 2px;
+    padding:10px;
+}
+.header .nav-links a{
+    font-size:18px;
+    font-weight: bold;
+    color:white;
+    padding:30px;
+    text-decoration: none;
+}
+.header .nav-links {
+    list-style: none;
+}
+.header .nav-links a:hover {
+    color:red;
+    transition: 0.4s;
+}
+span {
+    color:red;
+}
+.content {
+    background-color:black;
+    width:100%;
+    height:93vh;
+    color:white;
+}
+.container {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translate(-50,-50);
+    margin-left:40px;
+}
+.container h1 {
+    font-size:70px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.container p {
+    padding-top: 20px;
+}
+.icons {
+    font-size:20px;
+    padding: 20px 10px;
+}
+.icons i {
+    margin: 10px;
+    color:red
+}
+.image {
+    width:20%;
+    height:10%;
+    float:right;
+    margin:9% 17%;
+    border: 2px solid white;
+}
+.skills{
+    width:100%;
+    height:60vh;
+    text-align: center;
+    padding:20px;
+    background-color:lightgrey;
+    
+}
+.skills h1 {
+    font-size:55px;
+    font-weight:bold;
+}
+.skills p {
+     font-weight:bold;
+     font-size:18px;
+     margin: 21px -15px;
+      
+}
+.skill-icons{
+    height:20%;
+    width:5%;
+    margin:40px;
+    overflow:visible;
+    display: inline-block;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;   
+}
+.skills .skill-icons img:hover {
+    transform:rotate(360deg); 
+}
+.skill-icons p {
+    font-size:15px;
+    font-weight:bold;
+}
+.location {
+    width:100%;
+    height:95vh;
+    background-color: #d2dcd3;
+}
+.location iframe{
+    height:60vh;
+    width:80%;
+    display:block;
+    margin:50px 150px;
+    border:2px solid black;
+}
+.location h1 {
+    padding:20px;
+    font-size:45px;
+    font-weight:bold;
+    text-align: center;
+}
+.footer {
+    width:100%;
+    height:5vh;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+.footer p {
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
